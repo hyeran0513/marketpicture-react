@@ -33,7 +33,7 @@ const ProductDetailsClient = () => {
   if (error) return <div>Error: {error.message}</div>;
 
   return (
-    <div className={styles.product}>
+    <div className={styles.page}>
       {product ? (
         <div>
           <p>{product.productName}</p>

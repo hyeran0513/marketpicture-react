@@ -1,0 +1,45 @@
+.page {
+  margin: 0 auto;
+  max-width: 1280px;
+
+  .sliderContainer {
+    .customNextArrow,
+    .customPrevArrow  {
+      &::before {
+        color: #333;
+      }
+    }
+
+    .item {
+      cursor: pointer;
+      
+      .thumbnail {
+        width: 100%;
+        height: 240px;
+        border-radius: 10px;
+        overflow: hidden;
+
+        &Default {
+          width: 100%;
+          height: 100%;
+          background: #e8e8e8;
+        }
+      }
+
+      .title {
+        margin-top: 4px;
+      }
+
+      .price {
+        margin-top: 10px;
+
+        &Value,
+        &Unit {
+          font-size: 14px;
+          font-weight: bold;
+          color: #AE0000;
+        }
+      }
+    }
+  }
+}

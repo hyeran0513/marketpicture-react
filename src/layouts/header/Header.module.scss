@@ -1,0 +1,21 @@
+.header {
+  height: 80px;
+  border-bottom: 1px solid #e8e8e8;
+
+  &Inner {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;
+    height: 100%;
+
+    .gnb {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      
+      &Menu {
+        list-style: none;
+      }
+    }
+  }
+}
